@@ -604,5 +604,5 @@ ALTER TABLE tbl_recetas
 ADD COLUMN `dias` INT(11) NULL,
 ADD COLUMN `horas` DECIMAL(10,2) NULL;
 
-
+ALTER TABLE tbl_tipocambio CHANGE COLUMN tipoCambio_estatus Estado TINYINT(1);
 
